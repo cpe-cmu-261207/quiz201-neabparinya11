@@ -15,13 +15,11 @@ btn_toggle.onclick = (ev) => {
 
 // more codes for Search and Reset buttons here
 //console.log(length.value)
+
+const data = [];
 const btns = document.getElementById('search')
 const text = document.querySelector('#text')
 btns.onclick=()=>{
   console.log(text.innerHTML)
-  const num = function(){
-    if(text.innerHTML == length){
-      return 
-    }
-  }
+  console.log(text.textContent.split(5))
 }
