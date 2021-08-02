@@ -11,7 +11,10 @@ const data2 = '630612104'
 btn_toggle.onclick = () => {
   // your code here
   if(num==false){
-    author.innerHTML = '630612104'
+    const number = 630612104;
+    const number2 = parseInt(length.value);
+    const number3 = number + number2;
+    author.innerHTML = number3;
     btn_toggle.innerHTML = 'Show Author'
     num=true;
   }else if(num==true){
